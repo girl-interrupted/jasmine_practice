@@ -1,4 +1,4 @@
-class Javabuzz{
+class Javabuzz {
 
   _isDivisibleBy(divisor, number) {
     return number % divisor === 0;
@@ -16,3 +16,9 @@ class Javabuzz{
   }
 }
 };
+
+var javabuzz = new Javabuzz();
+
+for (var num = 1; num <= 100; num++) {
+  console.log(javabuzz.play(num));
+}
